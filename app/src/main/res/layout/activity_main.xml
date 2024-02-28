@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#9A2A2A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/abilities"
+        android:layout_width="203dp"
+        android:layout_height="213dp"
+        android:layout_marginEnd="3dp"
+        android:background="#0E0101"
+        android:backgroundTint="#AD1AA65E"
+        android:gravity="center"
+        android:text="Abillities"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pokemon" />
+
+    <TextView
+        android:id="@+id/pokemon"
+        android:layout_width="203dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="212dp"
+        android:background="#AD1A75A6"
+        android:gravity="center"
+        android:text="Pokemon"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/abilities"
+        app:layout_constraintStart_toEndOf="@+id/abilities" />
+
+    <TextView
+        android:id="@+id/moves"
+        android:layout_width="203dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="2dp"
+        android:background="#D3E12211"
+        android:gravity="center"
+        android:text="Moves"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/items"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/items"
+        android:layout_width="203dp"
+        android:layout_height="213dp"
+        android:layout_marginEnd="3dp"
+        android:background="#ADE3AF14"
+        android:gravity="center"
+        android:text="Items"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/pokemon" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="404dp"
+        android:layout_height="355dp"
+        android:gravity="bottom"
+        android:text="Immerse yourself in the wondrous world of Pokémon with the ultimate Pokédex app! Whether you're a seasoned Pokémon Master or a curious newcomer, our comprehensive encyclopedia unlocks the secrets of all 900+ Pokémon across every generation. Discover detailed stats, dazzling evolutions, powerful moves, and fascinating lore – all wrapped in a user-friendly interface designed for seamless exploration. Find your favorites, strategize for battle, and embark on a journey of discovery – your adventure awaits! "
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/abilities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="414dp"
+        android:layout_height="97dp"
+        android:background="#2468B1"
+        android:gravity="center"
+        android:text="Welcome to the Pokemon World!"
+        android:textAlignment="center"
+        android:textColor="#F4BE19"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="194dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="52dp"
+        android:gravity="center|right"
+        android:text="Coming Soon!"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/abilities"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Coming Soon!"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abilities"
+        app:layout_constraintVertical_bias="0.83" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
